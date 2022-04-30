@@ -76,8 +76,8 @@ Sprint-boot-started-parent: 2.1.5.release
 spring-cloud: greenwich.sr1
 
 ==========================================================================================================================================================================
-
-
+- Para saber mais: Versões do Spring Cloud
+Comentamos mais de uma vez sobre as versões das bibliotecas que estamos utilizando. Todavia, chama a atenção que a versão do Spring Cloud tem também um nome associado que, no nosso caso, é a Greenwich.SR1. De acordo com o próprio site do Spring Cloud, esses nomes se referem a nomes de estações de metrô de Londres. As versões são lançadas respeitando a ordem alfabética, começando por Angel, seguindo por Brixton, Dalston, Edgware, Finchley, Greenwich (a mais legal, fisicamente falando) e, até o lançamento desse treinamento, a Hoxton.
 ==========================================================================================================================================================================
 
 
