@@ -19,12 +19,12 @@ Quebrando o domínio em serviços Ver primeiro vídeo
 [ok	] - Conhecendo o domínio
 [ok	] - Modelagem de microsserviços
 [ok	] - Implementado o microsserviço
-[	] - Para saber mais: Versões do Spring Cloud
-[	] - Consolidando o seu conhecimento
-[	] - O que aprendemos?
+[ok	] - Para saber mais: Versões do Spring Cloud
+[ok	] - Consolidando o seu conhecimento
+[ok	] - O que aprendemos?
 
 Service Registry com Eureka
-[	] - Projeto da aula anterior
+[ok	] - Projeto da aula anterior
 [	] - Usando o RestTemplate
 [	] - Integração entre microsserviços
 [	] - Implementando o serviço Fornecedor
@@ -71,7 +71,7 @@ Projeto da aula anterior
 ==========================================================================================================================================================================
 02 Ambiente e versões
 
-Banco: MariaDB, 10.3.15 (HeidiSQL 9.5.0)
+Banco: MariaDB, 10.3.15 (HeidiSQL 9.5.0) https://mariadb.org/
 Sprint-boot-started-parent: 2.1.5.release
 spring-cloud: greenwich.sr1
 
@@ -79,8 +79,16 @@ spring-cloud: greenwich.sr1
 - Para saber mais: Versões do Spring Cloud
 Comentamos mais de uma vez sobre as versões das bibliotecas que estamos utilizando. Todavia, chama a atenção que a versão do Spring Cloud tem também um nome associado que, no nosso caso, é a Greenwich.SR1. De acordo com o próprio site do Spring Cloud, esses nomes se referem a nomes de estações de metrô de Londres. As versões são lançadas respeitando a ordem alfabética, começando por Angel, seguindo por Brixton, Dalston, Edgware, Finchley, Greenwich (a mais legal, fisicamente falando) e, até o lançamento desse treinamento, a Hoxton.
 ==========================================================================================================================================================================
+-O que aprendemos?
+Nesta aula, vimos:
 
-
+Qual a solução a ser implementada no curso
+Teremos três microsserviços: Fornecedor, Loja e Transportador
+Uma apresentação da modelagem focado em DDD (Domain Driven Design)
+Quebraremos o domínio em contextos menores (bounded context)
+Um microsserviço é a implementação de um contexto
+O uso do Postman como cliente HTTP
+A criação do microsserviço Loja usando Spring Boot
 ==========================================================================================================================================================================
 
 
