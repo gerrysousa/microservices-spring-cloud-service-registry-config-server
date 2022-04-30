@@ -25,8 +25,8 @@ Quebrando o domínio em serviços Ver primeiro vídeo
 
 Service Registry com Eureka
 [ok	] - Projeto da aula anterior
-[	] - Usando o RestTemplate
-[	] - Integração entre microsserviços
+[ok	] - Usando o RestTemplate
+[ok	] - Integração entre microsserviços
 [	] - Implementando o serviço Fornecedor
 [	] - Nível de acoplamento
 [	] - Service Discovery com Eureka
