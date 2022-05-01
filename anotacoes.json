@@ -27,7 +27,7 @@ Service Registry com Eureka
 [ok	] - Projeto da aula anterior
 [ok	] - Usando o RestTemplate
 [ok	] - Integração entre microsserviços
-[	] - Implementando o serviço Fornecedor
+[ok	] - Implementando o serviço Fornecedor
 [	] - Nível de acoplamento
 [	] - Service Discovery com Eureka
 [	] - Mudança com o uso do Service Discovery
@@ -74,6 +74,14 @@ Projeto da aula anterior
 Banco: MariaDB, 10.3.15 (HeidiSQL 9.5.0) https://mariadb.org/
 Sprint-boot-started-parent: 2.1.5.release
 spring-cloud: greenwich.sr1
+
+Para subir o banco no docker basta executar o comando abaixo:
+$ docker run --name mariadbcontainer -e MYSQL_ROOT_PASSWORD=mypass -p 3306:3306 -d docker.io/library/mariadb:10.3
+
+Após o container já criado, basta executar o comando abaixo para inicia-lo:
+$ docker start mariadbcontainer
+O container do banco ficará disponivel, agora vc já pode conecter um SGBD client para acessar o banco, exemplo "MySQL Client".
+Conecte pelo client e crie um novo schema, exemplo do curso "fornecedor"
 
 ==========================================================================================================================================================================
 - Para saber mais: Versões do Spring Cloud
