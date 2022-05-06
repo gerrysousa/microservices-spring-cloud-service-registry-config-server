@@ -28,14 +28,14 @@ Service Registry com Eureka
 [ok	] - Usando o RestTemplate
 [ok	] - Integração entre microsserviços
 [ok	] - Implementando o serviço Fornecedor
-[	] - Nível de acoplamento
-[	] - Service Discovery com Eureka
-[	] - Mudança com o uso do Service Discovery
-[	] - Consolidando o seu conhecimento
-[	] - O que aprendemos?
-[	] - Spring Config Server
+[ok	] - Nível de acoplamento
+[ok	] - Service Discovery com Eureka
+[ok	] - Mudança com o uso do Service Discovery
+[ok	] - Consolidando o seu conhecimento
+[ok	] - O que aprendemos?
 
-Projeto da aula anterior
+Spring Config Server
+[	] - Projeto da aula anterior
 [	] - Introdução ao Spring Config Server
 [	] - Criando o servidor de configuração
 [	] - Servidor de configuração
@@ -45,9 +45,9 @@ Projeto da aula anterior
 [	] - Migrando para o GitHub
 [	] - Consolidando o seu conhecimento
 [	] - O que aprendemos?
-[	] - Load Balancer e Spring Feign
 
-Projeto da aula anterior
+Load Balancer e Spring Feign
+[	] - Projeto da aula anterior
 [	] - Client Side Load Balancer
 [	] - Load Balancing no cliente
 [	] - Implementação com Spring Feign
@@ -55,9 +55,9 @@ Projeto da aula anterior
 [	] - Importando pedido e produtos
 [	] - Consolidando o seu conhecimento
 [	] - O que aprendemos?
-[	] - Distributed Tracing e Spring Sleuth
 
-Projeto da aula anterior
+Distributed Tracing e Spring Sleuth
+[	] - Projeto da aula anterior
 [	] - O que é Distributed Tracing?
 [	] - Logs espalhados
 [	] - Configurando o Papertrail
@@ -98,7 +98,18 @@ Um microsserviço é a implementação de um contexto
 O uso do Postman como cliente HTTP
 A criação do microsserviço Loja usando Spring Boot
 ==========================================================================================================================================================================
+-O que aprendemos?
+Nesta aula, aprendemos:
 
+A integração entre microsserviços com RestTemplate
+O RestTemplate do Spring permite chamadas HTTP de alto nível
+Um introdução ao Service discovery e Service registry
+Service registry é um servidor central, onde todos os microsserviços ficam cadastrados (nome e IP/porta)
+Service discovery é um mecanismo de descoberta do IP do microsserviço pelo nome
+Dessa forma, nenhum microsserviço fica acoplado ao outro pelo IP/porta
+A implementação do service registry através do Eureka Server
+Como registrar da Loja e do Fornecedor no Eureka Server
+A resolução do IP/porta através do nome do microsserviço nas requisições
 
 ==========================================================================================================================================================================
 
