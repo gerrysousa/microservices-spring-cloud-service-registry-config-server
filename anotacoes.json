@@ -35,9 +35,9 @@ Service Registry com Eureka
 [ok	] - O que aprendemos?
 
 Spring Config Server
-[	] - Projeto da aula anterior
-[	] - Introdução ao Spring Config Server
-[	] - Criando o servidor de configuração
+[ok	] - Projeto da aula anterior
+[ok	] - Introdução ao Spring Config Server
+[ok	] - Criando o servidor de configuração
 [	] - Servidor de configuração
 [	] - Acessando o servidor de configuração
 [	] - Organização das configurações
