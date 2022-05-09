@@ -2,17 +2,6 @@
 server:
   port: 8081
 
-spring:
-  application:
-    name: fornecedor
-  datasource:
-    url: jdbc:mysql://localhost:3306/fornecedor
-    username: root
-    password: mypass
-  jpa:
-    hibernate:
-      ddl-auto: create
-
 eureka:
   client:
     register-with-eureka: true
