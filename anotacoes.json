@@ -40,11 +40,11 @@ Spring Config Server
 [ok	] - Criando o servidor de configuração
 [ok	] - Servidor de configuração
 [ok	] - Acessando o servidor de configuração
-[	] - Organização das configurações
-[	] - Descobrindo as instâncias disponíveis
-[	] - Migrando para o GitHub
-[	] - Consolidando o seu conhecimento
-[	] - O que aprendemos?
+[ok	] - Organização das configurações
+[ok	] - Descobrindo as instâncias disponíveis
+[ok	] - Migrando para o GitHub
+[ok	] - Consolidando o seu conhecimento
+[ok	] - O que aprendemos?
 
 Load Balancer e Spring Feign
 [	] - Projeto da aula anterior
@@ -112,10 +112,49 @@ Como registrar da Loja e do Fornecedor no Eureka Server
 A resolução do IP/porta através do nome do microsserviço nas requisições
 
 ==========================================================================================================================================================================
+Esses funcionaran
 
+
+REPO separado
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gerrysousa/microservices-repo.git
+          search-paths: fornecedor
+          default-label: main
+		  
+-----
+
+Esse no mesmo REPO
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gerrysousa/spring-cloud-service-registry-config.git
+          search-paths: microservices-repo
+          default-label: main
 
 ==========================================================================================================================================================================
+-O que aprendemos?
+PRÓXIMA ATIVIDADE
 
+Nesta aula, aprendemos:
+
+- Que um servidor de configuração é o lugar central para definir as configurações dos serviços
+- Que todas as configurações dos microsserviços devem ficar externalizadas e centralizadas
+- Que o Spring Config Server é uma implementação do servidor do projeto Spring Cloud
+- Sobre a integração dos microsserviços com o servidor de configuração
+ 	- Para tal, devemos configurar o nome do microsserviço, profile e URL do Config Server
+- Que existem várias formas de definir um repositório de configurações, entre elas o GitHub
 
 ==========================================================================================================================================================================
 

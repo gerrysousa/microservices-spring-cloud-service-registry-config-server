@@ -2,10 +2,10 @@ server:
   port: 8888
 
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: C:\workspace\Alura\spring-cloud-service-registry-config\microservices-repo
+        git:
+          uri: https://github.com/gerrysousa/spring-cloud-service-registry-config.git
+          search-paths: microservices-repo
+          default-label: main
