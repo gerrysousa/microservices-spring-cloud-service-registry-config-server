@@ -63,10 +63,10 @@ Distributed Tracing e Spring Sleuth
 [ok	] - Configurando o Papertrail
 [ok	] - Agregação e Tracing
 [ok	] - Adicionando Spring Sleuth
-[	] - Consolidando o seu conhecimento
-[	] - O que aprendemos?
-[	] - Projeto do curso
-[	] - Conclusão
+[ok	] - Consolidando o seu conhecimento
+[ok	] - O que aprendemos?
+[ok	] - Projeto do curso
+[ok	] - Conclusão
 
 ==========================================================================================================================================================================
 02 Ambiente e versões
@@ -220,7 +220,28 @@ https://www.papertrail.com/
 https://my.papertrailapp.com/systems/WNB027998BHZ/events
 
 ==========================================================================================================================================================================
+- O que aprendemos?
+PRÓXIMA ATIVIDADE
 
+Nesta aula, aprendemos:
+
+- Como se trata de uma arquitetura distribuída, temos logs distribuídos
+	- Ou seja, cada microsserviço (e instância dele) possui o seu log
+	- Isso dificulta o acompanhamento e rastreabilidade das requisições
+- Para unificar os logs, precisamos de agregadores de log
+	- Como implementação de um agregador, usamos o Papertrail, um agregador como serviço
+- Usamos a biblioteca Logback para gerar e enviar os logs ao agregador
+	- O Logback possui um appender, que possibilita o envio dos logs
+- Para acompanhar uma transação nos logs, usamos uma correlation-id
+	- A correltation-id é um identificador da transação, que é passada de requisição pra requisição
+	- Dessa forma, podemos entender quais requisições fazem parte da mesma transação
+- A biblioteca Spring Sleuth, que é usada para gerar a correlation-id
+
+==========================================================================================================================================================================
+
+==========================================================================================================================================================================
+
+==========================================================================================================================================================================
 
 ==========================================================================================================================================================================
 
