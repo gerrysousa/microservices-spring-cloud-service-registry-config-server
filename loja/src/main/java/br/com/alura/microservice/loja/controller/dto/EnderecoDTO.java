@@ -28,4 +28,13 @@ public class EnderecoDTO {
   public String getEstado() {
     return estado;
   }
+
+  @Override
+  public String toString() {
+    return "EnderecoDTO{" +
+        "rua='" + rua + '\'' +
+        ", numero=" + numero +
+        ", estado='" + estado + '\'' +
+        '}';
+  }
 }
