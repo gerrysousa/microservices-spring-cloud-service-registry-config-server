@@ -53,13 +53,13 @@ Load Balancer e Spring Feign
 [ok	] - Implementação com Spring Feign
 [ok	] - Download do projeto a ser importado
 [ok	] - Importando pedido e produtos
-[	] - Consolidando o seu conhecimento
-[	] - O que aprendemos?
+[ok	] - Consolidando o seu conhecimento
+[ok	] - O que aprendemos?
 
 Distributed Tracing e Spring Sleuth
-[	] - Projeto da aula anterior
-[	] - O que é Distributed Tracing?
-[	] - Logs espalhados
+[ok	] - Projeto da aula anterior
+[ok	] - O que é Distributed Tracing?
+[ok	] - Logs espalhados
 [	] - Configurando o Papertrail
 [	] - Agregação e Tracing
 [	] - Adicionando Spring Sleuth
