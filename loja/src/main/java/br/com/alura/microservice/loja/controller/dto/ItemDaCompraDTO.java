@@ -1,4 +1,4 @@
-package br.com.alura.microservice.loja.loja.controller.dto;
+package br.com.alura.microservice.loja.controller.dto;
 
 public class ItemDaCompraDTO {
   private long id;

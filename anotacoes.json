@@ -49,9 +49,9 @@ Spring Config Server
 Load Balancer e Spring Feign
 [ok	] - Projeto da aula anterior
 [ok	] - Client Side Load Balancer
-[	] - Load Balancing no cliente
-[	] - Implementação com Spring Feign
-[	] - Download do projeto a ser importado
+[ok	] - Load Balancing no cliente
+[ok	] - Implementação com Spring Feign
+[ok	] - Download do projeto a ser importado
 [	] - Importando pedido e produtos
 [	] - Consolidando o seu conhecimento
 [	] - O que aprendemos?

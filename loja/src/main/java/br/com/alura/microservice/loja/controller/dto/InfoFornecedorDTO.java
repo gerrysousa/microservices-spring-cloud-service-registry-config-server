@@ -1,4 +1,4 @@
-package br.com.alura.microservice.loja.loja.controller.dto;
+package br.com.alura.microservice.loja.controller.dto;
 
 public class InfoFornecedorDTO {
   private String endereco;
