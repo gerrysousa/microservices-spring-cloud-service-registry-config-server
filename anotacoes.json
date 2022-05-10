@@ -61,8 +61,8 @@ Distributed Tracing e Spring Sleuth
 [ok	] - O que é Distributed Tracing?
 [ok	] - Logs espalhados
 [ok	] - Configurando o Papertrail
-[	] - Agregação e Tracing
-[	] - Adicionando Spring Sleuth
+[ok	] - Agregação e Tracing
+[ok	] - Adicionando Spring Sleuth
 [	] - Consolidando o seu conhecimento
 [	] - O que aprendemos?
 [	] - Projeto do curso
