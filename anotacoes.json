@@ -60,7 +60,7 @@ Distributed Tracing e Spring Sleuth
 [ok	] - Projeto da aula anterior
 [ok	] - O que é Distributed Tracing?
 [ok	] - Logs espalhados
-[	] - Configurando o Papertrail
+[ok	] - Configurando o Papertrail
 [	] - Agregação e Tracing
 [	] - Adicionando Spring Sleuth
 [	] - Consolidando o seu conhecimento
@@ -215,7 +215,9 @@ Nesta aula, aprendemos:
 	- Toda a implementação da interface é gerada pelo Spring Feign
 
 ==========================================================================================================================================================================
+https://www.papertrail.com/
 
+https://my.papertrailapp.com/systems/WNB027998BHZ/events
 
 ==========================================================================================================================================================================
 
